@@ -1,0 +1,77 @@
+.row1-col2>div,
+.row3-col2>div{
+    width: 33.33%;
+    height: 16.667%;
+    float: left;
+    border: 1px solid black;
+}
+.row2-col1>div,
+.row2-col3>div{
+    width: 16.667%;
+    height: 33.33%;
+    float: left;
+    border: 1px solid black;
+}
+.contain-triangle{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 55px solid transparent;
+    border-left: 55px solid #84c21f;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 55px solid transparent;
+    border-right: 55px solid #84c21f;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 55px solid #dc2418;
+    left: 5px;
+    bottom: 0;
+    position: absolute;
+}
+.triangle-bottom{
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 55px solid #dc2418;
+    right: 5px;
+    top: 0;
+    position: absolute;
+}
+.circle{
+    height: 50%;
+    width: 50%;
+    margin: 28px;
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text{
+    width: 80%;
+    height: 40%;
+    margin: 20px 5px;
+    font-size: 8px;
+    color: #000;
+    font-family: cursive;
+
+}
