@@ -3,7 +3,6 @@ label{
     width: 300px;
 }
 
-
 *,*:before,*:after{
     margin: 0;
     padding: 0;
@@ -35,8 +34,6 @@ label{
     align-items: center;
     justify-content: center;
     display: flex;
-
-
 }
 .row1-col2,
 .row3-col2{
